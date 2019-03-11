@@ -6,8 +6,11 @@ var modal = document.getElementById('myModal');
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+var btn = document.getElementById("confirm");
+var btn2 = document.getElementById("reject");
 // When the user clicks the button, open the modal
-var myVar = setTimeout(myFunction, 3000);
+var myVar = setTimeout(myFunction, 3000)
+
 
 function myFunction() {
   modal.style.display = "block";
